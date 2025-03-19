@@ -1,12 +1,24 @@
-**Librerías a instalar**
+# Requisitos de Instalación
 
-´´´ python ´´´
-pip install mnemonic bip32utils eth_account qrcode base58
+## Librerías a instalar
+Para ejecutar el script correctamente, es necesario instalar las siguientes librerías en Python.
 
-pip install Pillow
-
+```bash
 pip install mnemonic bip32utils eth_account qrcode base58 ecdsa Pillow
+```
 
+O bien, puedes instalarlas de manera individual:
 
-**Nota**
-La imagenes con los códigos QR se generan en la misma carpeta donde se ejecuta el script.
+```bash
+pip install mnemonic
+pip install bip32utils
+pip install eth_account
+pip install qrcode
+pip install base58
+pip install ecdsa
+pip install Pillow
+```
+
+## Nota
+Las imágenes con los códigos QR se generan en la misma carpeta donde se ejecuta el script.
+
